@@ -1,7 +1,11 @@
 # REST-API
+
 Til REST API øvelse
+
 URL endpoint til at oprette mappe: files/create_folder_v2
+
 HTTP-verb: POST
+
 Svar fra API: {
     "metadata": {
         "name": "testmappe",
@@ -11,4 +15,10 @@ Svar fra API: {
     }
 }
 
+
 Beskriv kort kort om uniform interface: Gør brug af HTTP-verber som er en del af REST. Bruger URL til at identificere specifikke resourcer.
+
+URL endpoint til at få mappedata: files/get_metadata
+
+Statuskode: 200OK
+
