@@ -22,3 +22,15 @@ URL endpoint til at få mappedata: files/get_metadata
 
 Statuskode: 200OK
 
+
+Kunne ikke få fil upload til at virke selvom alt var specifiseret og URL var korrekt så jeg uploadede den manuelt på Dropbox.
+
+
+Endpoint til at slette fil: files/delete_v2
+
+HTTP verb: POST
+
+Sti: "path": "/testmappe/lol.pdf"
+
+Kunne ikke få de resterende til at fungere, selv med manuelt upload - ved ikke hvad problemet var.
+
